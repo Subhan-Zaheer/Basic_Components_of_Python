@@ -28,8 +28,21 @@ file2 = open("Subhan3.txt", "a")
 file2.write("So it is Subhan 3 file.\n")
 
 file3 = open("Subhan3.txt", "r+")
+print(file3.tell())
 file3.write("It is another line.")
 print(file3.read())
+
+
+"""
+Seek function will reset the pointer to our given position.
+Tell function will tell us the recent position of our file pointer.
+"""
+
+f = open("Subhan.txt.txt")
+
+print(f.seek(2))
+print(f.tell())
+print(f.read())
 
 file.close()
 file2.close()
