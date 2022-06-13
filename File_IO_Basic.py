@@ -1,0 +1,40 @@
+"""
+"r" - Open file for reading purpose - default
+"w" - Open file for Writing Purpose
+"x" - Create file if does not exist
+"a" - Append mode
+"t" - Text mode
+"b" - Binary Mode
+"+" - read and write
+"""
+# Reading Function with file.
+
+f = open("Subhan.txt.txt")
+# content = f.read()
+# print(content)
+# print(f.readline())
+# print(f.readline())
+print(f.readlines())
+# for line in f:
+#     print(line)
+
+f.close()
+
+# Writing a file
+file = open("Subhan2.txt", "a")
+file.write("So it is Subhan 2 file \n")
+
+file2 = open("Subhan3.txt", "a")
+file2.write("So it is Subhan 3 file.\n")
+
+file3 = open("Subhan3.txt", "r+")
+file3.write("It is another line.")
+print(file3.read())
+
+file.close()
+file2.close()
+file3.close()
+
+
+
+
