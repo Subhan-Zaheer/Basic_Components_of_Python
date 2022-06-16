@@ -23,6 +23,13 @@ def factorial_Recursive(n):
     else :
         return n * factorial_Recursive(n-1)
 
+"""
+5 * factorial_Recursive(4)
+5 * 4 * factorial_Recursive(3)
+5 * 4 * 3 * factorial_Recursive(2)
+5 * 4 * 3 * 2 * factorial_Recursive(1)
+5 * 4 * 3 * 2 * 1
+"""
 
 def fabonacci(n):
     """
