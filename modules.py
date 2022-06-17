@@ -1,5 +1,8 @@
 import random
-random_number = random.randint(0,8)
+"""
+This module helps to generate random number.
+"""
+random_number = random.randint(0, 8)
 print(random_number)
 
 rand = random.random() * 100
@@ -9,6 +12,9 @@ choice = random.choice(ls)
 print (choice)
 
 import operator
+"""
+This module have basic functions performed on operators.
+"""
 print(operator.add(5, 6))
 
 num1 = int(input("Enter a number1 : "))
