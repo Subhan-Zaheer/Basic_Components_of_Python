@@ -15,5 +15,5 @@ Now we will use enumerate function to solve our problem and make life easy.
 
 print("\nNow we are doing same thing using enumerate function.")
 for index, item in enumerate(ls):
-    if index % 2 == 0:
+    if index % 2 != 0:
         print(f"We will buy {item}")
