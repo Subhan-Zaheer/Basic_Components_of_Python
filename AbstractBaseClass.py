@@ -1,7 +1,8 @@
 from abc import ABCMeta, abstractmethod
 class Shape(metaclass=ABCMeta):
     """
-    This class is Abstract Meta or Base class.
+    This class is Abstract Meta or Base class. We cannot declare its object like
+    obj = Shape() (This is wrong)
     """
     @abstractmethod
     def printArea(self):
