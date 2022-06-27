@@ -28,9 +28,14 @@ class Employee:
         return self.salary + other.salary
     def __truediv__(self, other):
         return self.salary / other.salary
+    def __repr__(self): #It is also a special type of function use to represent attributes of object in a string.
+        return f"(\"{self.name}\", {self.salary})"
+    def __str__(self):
+        return self.printFunc()
 
 emp1 = Employee("Subhan", 75757)
 emp2 = Employee("Hassaan", 757570)
 print("emp1 + emp2 will add the salary of both employees which is : ", emp1 + emp2)
 print("emp1 / emp2 will divide the salary of both employees and will give us the answer and which is : ", emp1 / emp2)
+print(emp1.__repr__())
 
