@@ -21,7 +21,7 @@ class Employee:
         self.lname = None
 
 obj1 = Employee("Subhan", "Zaheer")
-obj2 = Employee("Ahmad", "Iqbal")
+obj2 = Employee("Hassaan", "Ahmad")
 print(obj2.email)
 obj2.emailset = "this.that@subhan.code"
 print(obj2.fname)
