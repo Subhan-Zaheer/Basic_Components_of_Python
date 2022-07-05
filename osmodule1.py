@@ -4,6 +4,10 @@ os.chdir will change the current working directory.
 os.listdir will give you list of all directories present in given path.
 os.mkdir will make one directory.
 os.makedirs will make multiple directories (Directory into a directory).
+os.rename will rename file with another name.
+os.enviro.get() will give us environment variable.
+os.isdir() will check if the input given is dirctory or not.
+os.isfile() will check if the input given is file or not.
 """
 import os
 print(dir(os))
