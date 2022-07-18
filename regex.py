@@ -14,7 +14,9 @@ Note: You access methods just like you access attributes; by creating an object 
 # pattern = re.compile("^Methods")
 # pattern = re.compile(r"\(.\):$")
 # pattern = re.compile(r"ll+o*")
-pattern = re.compile(r" {2}")
+# pattern = re.compile(r"(ss){1}|l{2}")
+# pattern = re.compile(r"\AMethods")
+pattern = re.compile(r"\bT|\bt")
 
 matches = pattern.finditer(mystr)
 for item in matches:
